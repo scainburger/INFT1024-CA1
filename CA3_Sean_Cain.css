@@ -1,0 +1,24 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    color: white;
+    size: 130%;
+    text-align: center;
+}
+
+#content {
+    border: white solid 1px;
+    padding: 5px;
+}
+
+p, ol {
+    color: yellow
+}
+
+td {
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+}
