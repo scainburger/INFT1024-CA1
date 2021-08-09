@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Australian Birds</title>
+        <script>
+            function changeData(link, text) {
+                document.getElementById("birdPic").setAttribute('src', link)
+                document.getElementById("descText").innerHTML = text;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Australian Birds</h1>
+        <p>
+            <a href="#" onclick="changeData(
+            'http://www.outgrabe.net/bird00.jpg',	
+            'Pardalote by fir0002 (CC-by-NC)')">Paradalote</a> |
+            
+            <a href="#" onclick="changeData(
+            'http://www.outgrabe.net/bird01.jpg',
+            'Purple swamp hen by Toby Hudson (CC-by-SA)')">
+            Purple Swamp Hen</a> | 
+            
+            <a href="#" onclick="changeData(
+            'http://www.outgrabe.net/bird02.jpg',
+            'White-headed Stilt by JJ Harrison (CC-by-SA)')">
+            White-headed Stilt</a> |
+            
+            <a href="#" onclick="changeData(
+            'http://www.outgrabe.net/bird03.jpg',	
+            'Inland Thornbill by Peter Jacobs (CC-by-SA)')">
+            Inland Thornbill</a> |
+            
+            <a href="#" onclick="changeData(
+            'http://www.outgrabe.net/bird04.jpg',	
+            'Rose Robin by JJ Harrison (CC-by-SA)')">
+            Rose Robin</a>
+
+        </p>
+
+        <img id="birdPic" src="">
+        <p id="descText"></p>
+        <p>This HTML file can also be found on my Github - <a href="https://github.com/scainburger/INFT1024-CA1">https://github.com/scainburger/INFT1024-CA1</a></p>
+    </body>
+</html>
